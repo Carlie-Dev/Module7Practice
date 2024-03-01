@@ -91,3 +91,24 @@ print(url_list)
 
 #Putting things back together
 print('/'.join(url_list))
+
+#Making a list directly from a sting
+
+# numString = '12345'
+# numList = list(numString)
+# print(numList)
+
+#getting part of a list
+partList = dog_1[2:3]
+print(partList)
+
+#combining list
+bigList = dog_1 + dog_2
+print(bigList)
+
+biggerList = dog_1.extend(dog_2)
+print(biggerList)
+
+foodList = myString.split(' ')
+
+print(foodList)
