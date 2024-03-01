@@ -56,3 +56,24 @@ print(myString.find('corn',10,20))
 
 #Gets the ammount a substring appears in a string
 print(myString.count('apple'))
+
+
+#Fixing messed up string
+
+firstName = 'MeLisA'
+lastName = 'mIka'
+
+firstName1 = '   MeLisA'
+lastName1 = '  mIka   '
+
+name = firstName + " " + lastName
+#Fixing a string
+print(firstName.capitalize(),lastName.capitalize())
+print(firstName.upper(),lastName.upper())
+print(firstName.lower(),lastName.lower())
+print(firstName1.strip().capitalize(),lastName1.strip().capitalize())
+
+print(name.title())
+
+print(myString.title())
+
