@@ -77,3 +77,14 @@ print(name.title())
 
 print(myString.title())
 
+#Split
+#Split turns a string into a list
+csv_data = 'Richard,Mutt,15,Large'
+dog_1 = csv_data.split(',')
+print(dog_1)
+
+
+#Breaking up a url
+url_data = 'https://otc.instructure.com/courses/57609/assignments/1828591?module_item_id=3214349'
+url_list = url_data.split('/')
+print(url_list)
