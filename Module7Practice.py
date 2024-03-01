@@ -28,3 +28,28 @@ for list in dog_list:
     print(f'{list[0]:8}{list[1]:10}{list[2]:4}{list[3]:6}')
 
 print('-'*28)
+
+#Better method
+#New list example
+
+# length_list = []
+
+# for list in dog_list:
+#     temp_list = []
+
+
+#Replace an item in a string
+myString = 'apple corn hotDog pizza apple corn apple apple pizza hotDog'
+print(myString)
+
+print(myString.replace('apple','donut'))
+
+print(myString.replace('apple','donut',1))
+
+#replaces all of them still
+print(myString.replace('apple','donut',-1))
+
+#Find an item in a string
+print(myString.find('corn',1))
+print(myString.find('corn',10,20))
+#^ will return an error value as a -1
