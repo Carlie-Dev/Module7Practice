@@ -53,3 +53,6 @@ print(myString.replace('apple','donut',-1))
 print(myString.find('corn',1))
 print(myString.find('corn',10,20))
 #^ will return an error value as a -1
+
+#Gets the ammount a substring appears in a string
+print(myString.count('apple'))
